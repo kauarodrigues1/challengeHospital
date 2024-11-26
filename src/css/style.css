@@ -108,3 +108,11 @@ main img{
     padding: 5px;
     box-shadow: 1px 1px 2px rgb(143, 143, 143);
 }
+
+footer{
+    background-color: rgba(99, 99, 253, 0.651);
+    height: 100px;
+    color: white;
+    margin-top: 50px;
+    
+}
