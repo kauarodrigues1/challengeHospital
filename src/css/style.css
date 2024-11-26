@@ -17,6 +17,8 @@ a{
 .nav:hover{
     color: rgb(0, 132, 255);
     border-bottom: 2px solid white;
+    transition: transform 0.2s ease-in-out;
+    transform: translateY(-2px);
 }
 
 header{
@@ -37,6 +39,7 @@ main{
 
 main img{
     border-radius: 15px;
+    box-shadow: 1px 1px 5px rgb(99, 99, 99);
 }
 
 .caixas{
@@ -52,7 +55,7 @@ main img{
 .caixa{
     border: 1px solid lightblue;
     transition: transform 0.2s ease-in-out;
-    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, .2);
     font-size: 17px;
     border-radius: 10px;
     width: 400px;
@@ -103,4 +106,5 @@ main img{
     width: 900px;
     margin: 25px;
     padding: 5px;
+    box-shadow: 1px 1px 2px rgb(143, 143, 143);
 }
