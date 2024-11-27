@@ -26,7 +26,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightblue;
+    background-color: rgb(115, 159, 241);
     height: 75px;
     font-size: 30px;
 }
@@ -100,7 +100,7 @@ main img{
     justify-content: center;
     text-align: center;
     color: rgb(24, 24, 250);
-    border: 1px solid lightblue;
+    border: 1px solid rgb(115, 159, 241);
     background-color: rgba(173, 216, 230, 0.13);
     border-radius: 10px;
     width: 900px;
@@ -110,8 +110,8 @@ main img{
 }
 
 footer{
-    background-color: rgba(99, 99, 253, 0.651);
-    height: 100px;
+    background-color: rgb(115, 159, 241);
+    height: 50px;
     color: white;
     margin-top: 50px;
     

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Doto:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+body{
+    background-image: url(../assets/back2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.4s;
+    transition: border 0.1s;
+}
+
+.nav:hover{
+    color: rgb(0, 132, 255);
+    border-bottom: 2px solid white;
+    transition: transform 0.2s ease-in-out;
+    transform: translateY(-2px);
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(115, 159, 241);
+    height: 75px;
+    font-size: 30px;
+}
+
+main{
+
+    margin-top: 30vh;
+    margin-left: 800px;
+    background-color: rgba(115, 159, 241, 0.877);
+    border: 1px solid rgb(115, 159, 241);
+    border-radius: 5px;
+    width: 30vh;
+    height: 40vh;
+    padding: 15px;
+}
+
+.form{
+    padding: 0 40px 30px;
+}
+.controle{
+    padding-bottom: 20px;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.controle label{
+    display: inline-block;
+    color:#041944;
+    font-weight: 900;
+}
+
+.controle input{
+    border: 2px solid lightslategray;
+    border-radius: 5px;
+    width: 60%;
+    height: 30px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.controle.error i.error{
+    visibility: visible;
+}
+
+.controle.sucesso i.sucesso{
+    visibility: visible;
+}
+.controle.error small{
+    color:rgb(47, 147, 180);
+    font-size: 11px; /* 1rem equivale a 16px*/
+    visibility: visible;
+}
+.controle i{
+    position: absolute;
+    top:4px;
+    right: 10px;
+    visibility: hidden;  
+}
+.controle small{
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 10px;
+    color:rgb(47, 147, 180);
+}
+.form button{
+    width: 70%;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: rgb(47, 147, 180);
+    color:#fff;
+    margin-left: 50px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.menu-subitem.menu-subitem a{
+    transition: color 0.3s;
+}
+
+.menu-subitem a:hover{
+    color: white;
+}
+
+.controle:hover{
+    transform: translateY(-2px);
+    
+}
+
+.form button:hover{
+    transform: translateY(-2px);
+} 
+
+.form h2{
+    color: rgb(5, 182, 241);
+}
+
