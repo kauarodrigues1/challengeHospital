@@ -7,7 +7,7 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     const temErro = checarCampos();
     if (!temErro) {
-        window.location = "index.html";
+        window.location = "logado.html";
     }
 });
 

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Doto:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.4s;
+    transition: border 0.1s;
+}
+
+.nav:hover{
+    color: rgb(0, 132, 255);
+    border-bottom: 2px solid white;
+    transition: transform 0.2s ease-in-out;
+    transform: translateY(-2px);
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(115, 159, 241);
+    height: 75px;
+    font-size: 30px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main img{
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgb(99, 99, 99);
+}
+
+.caixas{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.caixa:hover{
+    transform: translateY(-5px);
+}
+
+.caixa{
+    border: 1px solid lightblue;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, .2);
+    font-size: 17px;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    margin: 40px;
+    background-color: rgba(173, 216, 230, 0.13);
+}
+
+.caixa h2{
+    color: rgb(24, 24, 250);
+}
+
+#login{
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: color 0.5s;
+    transition: border 0.5s;
+}
+
+.login a:hover{
+    color: white;
+}
+
+#login:hover{
+    background-color: rgb(248, 33, 33);
+
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.titulo:hover{
+    transform: translateY(-2px);
+}
+
+.titulo h1{
+    justify-content: center;
+    text-align: center;
+    color: rgb(24, 24, 250);
+    border: 1px solid rgb(115, 159, 241);
+    background-color: rgba(173, 216, 230, 0.13);
+    border-radius: 10px;
+    width: 900px;
+    margin: 25px;
+    padding: 5px;
+    box-shadow: 1px 1px 2px rgb(143, 143, 143);
+}
+
+footer{
+    background-color: rgb(115, 159, 241);
+    height: 50px;
+    color: white;
+    margin-top: 50px;
+    
+}
