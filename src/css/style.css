@@ -62,7 +62,7 @@ main img{
     border: 1px solid lightblue;
     transition: transform 0.2s ease-in-out;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, .2);
-    font-size: 17px;
+    font-size: 20px;
     border-radius: 10px;
     width: 400px;
     height: 200px;
@@ -72,7 +72,7 @@ main img{
 }
 
 .caixa h2{
-    color: rgb(44, 44, 250);
+    color: #00639E;
 }
 
 #login{
@@ -114,4 +114,15 @@ footer{
     height: 50px;
     color: white;
     margin-top: 50px;
+}
+
+.apre{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding: 20px 200px 30px 200px;
+    font-size: 22px;
+    color: #333;
+    text-align: center;
 }
