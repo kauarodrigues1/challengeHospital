@@ -27,7 +27,9 @@ header a{
 
 .header0{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
     background-color: #0F8CCD;
 }
 
@@ -39,6 +41,16 @@ header{
     background-color: #00639E;
     height: 40px;
     font-size: 22px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.header-hidden{
+    display: none;
+}
+
+.menu:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 footer{

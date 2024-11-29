@@ -57,19 +57,6 @@ function validarSucesso(input) {
     controle.className = "controle sucesso";
 }
 
-let elem = document.getElementById("menu-item1");
-let elemItens = document.getElementById("menu-itens1");
-
-function entrei() {
-    elemItens.classList.remove("menu-subitens-hidden");
-}
-
-function sai() {
-    elemItens.classList.add("menu-subitens-hidden");
-}
-
-elem.addEventListener("mouseenter", entrei);
-elemItens.addEventListener("mouseleave", sai);
 
 function myFunction() {
     var x = document.getElementById("senha");
@@ -79,3 +66,16 @@ function myFunction() {
       x.type = "password";
     }
   }
+
+let elem = document.getElementById("menu");
+console.log("Elem: ", elem);
+
+let elemItens = document.getElementById("header");
+console.log("elemItens: ", elemItens);
+
+function toggleMenu() {
+    console.log("Cliquei no menu");
+    elemItens.classList.toggle("header-hidden"); 
+}
+
+elem.addEventListener("click", toggleMenu);

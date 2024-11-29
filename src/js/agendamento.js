@@ -54,17 +54,16 @@ function validarSucesso(input) {
     controle.className = "controle sucesso";
 }
 
-let elem = document.getElementById("menu-item1");
-let elemItens = document.getElementById("menu-itens1");
+let elem = document.getElementById("menu");
+console.log("Elem: ", elem);
 
-function entrei() {
-    elemItens.classList.remove("menu-subitens-hidden");
+let elemItens = document.getElementById("header");
+console.log("elemItens: ", elemItens);
+
+function toggleMenu() {
+    console.log("Cliquei no menu");
+    elemItens.classList.toggle("header-hidden"); 
 }
 
-function sai() {
-    elemItens.classList.add("menu-subitens-hidden");
-}
-
-elem.addEventListener("mouseenter", entrei);
-elemItens.addEventListener("mouseleave", sai);
+elem.addEventListener("click", toggleMenu);
 
