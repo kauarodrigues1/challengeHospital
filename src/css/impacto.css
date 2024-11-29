@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Doto:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.4s;
+    transition: border 0.1s;
+}
+
+.login a:hover{
+    color: rgb(0, 132, 255);
+}
+
+.nav:hover{
+    color: #0F8CCD;
+    border-bottom: 2px solid white;
+    transition: transform 0.2s ease-in-out;
+    transform: translateY(-2px);
+}
+
+.header0{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #0F8CCD;
+}
+
+header{
+    padding: 10px 150px 10px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00639E;
+    height: 40px;
+    font-size: 22px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.header-hidden{
+    display: none;
+}
+
+.menu:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+footer{
+    background-color: #0F8CCD;
+    height: 50px;
+    color: white;
+    margin-top: 50px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    background-color: rgb(219,235,246);
+    height: 100px;
+    padding: 40px 0px 0px 40px;
+}
+
+.titulo h1{
+    color: #00639E;
+}
+
+.presencial {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding: 20px 200px 30px 200px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.agen{
+    margin-top: 3vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 7px;
+    width: 200px;
+    transition: transform 0.2s ease-in-out;
+    background: linear-gradient(90deg, #0F8CCD, #00639E);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, .2);
+}
+
+.agen:hover{
+    transform: translateY(-2px);
+    font-size: 21px;
+}
+
+.agen a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #0F8CCD;
+    height: 50px;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 5vh;
+}
+
+.presencial img{
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
