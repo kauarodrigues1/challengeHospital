@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Doto:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+body{
+    background-image: url(../assets/back2.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.4s;
+    transition: border 0.1s;
+}
+
+.nav:hover{
+    color: #0F8CCD;
+    border-bottom: 2px solid white;
+    transition: transform 0.2s ease-in-out;
+    transform: translateY(-2px);
+}
+
+.header0{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0F8CCD;
+}
+
+header{
+    padding: 10px 150px 10px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00639E;
+    height: 40px;
+    font-size: 22px;
+}
+
+main{
+    margin-top: 20vh;
+    margin-left: 80vh;
+    background-color: white;
+    border: 1px solid rgb(115, 159, 241);
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+main:hover{
+    transform: translateY(-1px);
+}
+
+.form{
+    padding: 0 40px 30px;
+}
+.controle{
+    padding-bottom: 20px;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.controle label{
+    display: inline-block;
+    color:#041944;
+    font-weight: 900;
+}
+
+.controle input{
+    border: 2px solid lightslategray;
+    border-radius: 5px;
+    width: 60%;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.controle.error i.error{
+    visibility: visible;
+}
+
+.controle.sucesso i.sucesso{
+    visibility: visible;
+}
+.controle.error small{
+    color:rgb(47, 147, 180);
+    font-size: 11px; 
+    visibility: visible;
+}
+.controle i{
+    position: absolute;
+    top:4px;
+    right: -30px;
+    visibility: hidden;  
+}
+.controle small{
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 10px;
+    color:rgb(47, 147, 180);
+}
+.form button{
+    width: 70%;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #00639E;
+    color:#fff;
+    margin-left: 30px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.menu-subitem.menu-subitem a{
+    transition: color 0.3s;
+}
+
+.menu-subitem a:hover{
+    color: white;
+}
+
+.controle:hover{
+    transform: translateY(-2px);
+    
+}
+
+.form button:hover{
+    transform: translateY(-2px);
+} 
+
+.form h1{
+    color: #0F8CCD;
+    margin-bottom: 3vh;
+}
+
+.controle .mostrar{
+    border: 2px solid lightslategray;
+    width: 10%;
+    height: 30px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.form select{
+    font-size: 18px;
+    border: 2px solid lightslategray;
+    border-radius: 5px;
+    width: 60%;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 10vh;
+}
+
+.select label{
+    color:#041944;
+    font-weight: 900;
+}
+

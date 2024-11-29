@@ -7,7 +7,7 @@
     font-family: "Barlow Condensed", sans-serif;
 }
 
-a{
+header a{
     text-decoration: none;
     color: white;
     transition: color 0.4s;
@@ -47,3 +47,49 @@ footer{
     color: white;
     margin-top: 50px;
 }
+
+.titulo{
+    display: flex;
+    align-items: center;
+    background-color: rgb(219,235,246);
+    height: 100px;
+    padding: 40px 0px 0px 40px;
+}
+
+.titulo h1{
+    color: #00639E;
+}
+
+.presencial {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding: 20px 200px 30px 200px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+
+
+.agen{
+    margin-top: 3vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 7px;
+    width: 200px;
+    transition: transform 0.2s ease-in-out;
+    background: linear-gradient(90deg, #0F8CCD, #00639E);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, .2);
+}
+
+.agen:hover{
+    transform: translateY(-2px);
+    font-size: 21px;
+}
+
+.agen a{
+    text-decoration: none;
+    color: white;
+}
+
