@@ -166,3 +166,15 @@ main:hover{
     font-weight: 900;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #0F8CCD;
+    height: 50px;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 40vh;
+}
+
