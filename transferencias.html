@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Sabara</title>
+    <link rel="icon" href="./src/assets/sabaraICO.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/transferencias.css">
+</head>
+<body>
+    <div class="header0">
+        <a href="./index.html"><img src="./src/assets/sabaraLogo2.png" alt="" width="230px" draggable="false"></a>
+    </div>
+     
+    <header>
+        <a class="nav" href="">Contato</a>
+        <a class="nav" href="">Sobre</a>
+        <a class="nav" href="./transferencias.html">transferências</a>
+        <a class="nav" href="./visita.html">Agendar visita</a>
+            
+        <div class="login">
+            <a  id="login" href="./login.html">Login</a>
+        </div>
+    </header>
+
+    <div class="titulo">
+        <h1>Transferencia de pacientes</h1>
+    </div>
+    <div class="presencial">
+        <h2>Formulario</h2>
+
+        <p>"Seja bem-vindo(a) à página de envio de formulários para transferência de pacientes.
+            Este espaço foi desenvolvido para facilitar a comunicação entre instituições de saúde,
+            garantindo a agilidade e a segurança no processo de transferência de pacientes, sempre
+            respeitando as normas e regulamentações vigentes."
+        </p>
+    </div>
+
+    <div class="form-container">
+        <h1>Formulário de Cadastro</h1>
+        <form id="cadastroForm">
+
+            <div class="form-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                <div class="error" id="nomeError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Instituição de Origem</label>
+                <input type="text" id="email" name="email" placeholder="Digite a instituição de origem" required>
+                <div class="error" id="emailError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="senha">Medico</label>
+                <input type="text" id="senha" name="medico" placeholder="Medico responsavel" required>
+                <div class="error" id="senhaError"></div>
+            </div>
+
+            <div class="form-group radio-group">
+                <label>Gênero</label>
+                <label><input type="radio" name="genero" value="masculino" required> Masculino</label>
+                <label><input type="radio" name="genero" value="feminino" required> Feminino</label>
+                <label><input type="radio" name="genero" value="outro" required> Outro</label>
+                <div class="error" id="generoError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="dataNascimento">Data de Nascimento</label>
+                <input type="date" id="dataNascimento" name="dataNascimento" required>
+                <div class="error" id="dataNascimentoError"></div>
+            </div>
+
+            <div class="form-group" id="uploadForm">
+                <label for="fileInput">Prontuario medico :</label>
+        <input type="file" id="fileInput" name="file" accept="image/*, .pdf, .docx" required>
+
+    </form>
+              
+            </div>
+
+            <div class="form-group checkbox-group">
+                <label><input type="checkbox" name="termos" required> Aceito os Termos e Condições</label>
+                <div class="error" id="termosError"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva uma mensagem (opcional)"></textarea>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Hospital Sabará. Todos os direitos reservados. | Desenvolvido por Kauã, Felipe e Gustavo
+    </footer>
+
+    <script src="./src/js/transferencias.js" ></script>
+</body>
+</html>
