@@ -92,3 +92,18 @@ footer{
     color: white;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #0F8CCD;
+    height: 50px;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.robo{
+    margin-bottom: -55px;
+}
+

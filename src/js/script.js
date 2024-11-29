@@ -1,7 +1,7 @@
 let imagens =[
     "src/assets/medico1.jpg",
     "src/assets/medico2.jpg",
-    "src/assets/medico3.jpg",
+    "src/assets/medico3.webp",
     
 ];
 let i=0;
